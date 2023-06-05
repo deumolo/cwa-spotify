@@ -32,8 +32,8 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
   );
 
   return (
-    <div className="flex h-full">
-      <div class="hidden md:flex flex-col gap-y-2 bg-black h-full w-[300px] p-2">
+    <div className="flex h-full p-2 gap-x-2">
+      <div class="hidden md:flex flex-col gap-y-2 bg-black h-full w-[300px]">
         <Box className="">
           <div
             className="
